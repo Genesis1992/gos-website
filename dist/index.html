@@ -3,202 +3,264 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="/dist/scripts/style.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-    <title>Genesis Online Solutions | Web Design and Development</title>
+    <title>Genesis Online Solutions</title>
 </head>
 <body>
+    <!-- scroll top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
 
-    <div class="spinner-container">
-        <div class="circles">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+    <!-- header -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Genesis Online Solutions</a>
 
-    <div class="container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
 
-        <a href="#" class="logo">Genesis Online Solutions</a>
-
-        <div class="hamburger-menu">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
-        </div>
-
-        <header class="header">
-            <div class="img-wrapper">
-                <img src="/dist/img/bg-header.jpeg" alt="">
+                    <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+                </ul>
             </div>
 
-            <div class="banner">
-                <h1>Web design and <br> Development</h1>
-                <p>We’ll analyze the nature of your business to make your business personal & use creative & innovative ideas to bring out the uniqueness to your website.</p>
-                <button>Learn more</button>
-                <button>Get a quote</button>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
             </div>
-        </header>
+        </nav>
+    </header>
 
-        <section class="sidebar">
-            <ul class="menu">
-                <li class="menu-item"><a href="#home" class="menu-link" data-content="Home">Home</a></li>
-                <li class="menu-item"><a href="#about" class="menu-link" data-content="About">About</a></li>
-                <li class="menu-item"><a href="#team" class="menu-link" data-content="Team">Team</a></li>
-                <li class="menu-item"><a href="#pricing" class="menu-link" data-content="Pricing">Pricing</a></li>
-                <li class="menu-item"><a href="#contact" class="menu-link" data-content="Contact">Contact</a></li>
-            </ul>
+    <main class="l-main">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Web Design and <br> Development</h1>
+                </div>
 
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <img src="/dist/img/bg-header.jpeg" alt="" class="home__img">
             </div>
         </section>
 
-        <section class="about-us" id="about">
-            <div class="section-header">
-                <h1 class="section-heading">About Us</h1>
-                <div class="underline"></div>
-            </div>
-
-            <div class="services">
-                <div class="service">
-                    <div class="service-header">
-                        <i class='bx bx-pen'></i>
-                        <h3>Interior</h3>
-                    </div>
-                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
-                </div>
-                <div class="service">
-                    <div class="service-header">
-                        <i class='bx bx-paint-roll' ></i>
-                        <h3>Exterior</h3>
-                    </div>
-                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
-                </div>
-                <div class="service">
-                    <div class="service-header">
-                        <i class='bx bx-building-house' ></i>
-                        <h3>Execution</h3>
-                    </div>
-                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
-                </div>
-                <div class="service">
-                    <div class="service-header">
-                        <i class='bx bxs-pencil' ></i>
-                        <h3>Design</h3>
-                    </div>
-                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
-                </div>
-                <div class="service">
-                    <div class="service-header">
-                        <i class='bx bxs-brush' ></i>
-                        <h3>Decoration</h3>
-                    </div>
-                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
-                </div>
-                <div class="service">
-                    <div class="service-header">
-                        <i class='bx bxs-ruler' ></i>
-                        <h3>Planning</h3>
-                    </div>
-                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
+        <!-- about -->
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__intial">About Us</span>
+                    <p class="about__description">The company offers business associated with web designing and development and offers wide range services, under such categories, logo design, web design, graphic design, and other services.</p>
                 </div>
 
-                <div class="about-us-img-wrapper">
-                    <img src="/dist/img/about-us.jpg" alt="">
+                <div class="about__mission-vision">
+                    <div class="about__mission">
+                        <img src="/dist/img/mission.jpeg" alt="" class="about__mission-img">
+                        <h2 class="mission-title">Mission</h2>
+                        <p class="mission__description">To reach the goal of our clients and to provide an almost satisfaction by creating and designing a website that is suitable for their needs.</p>
+                    </div>
+
+                    <div class="about__vision">
+                        <img src="/dist/img/vision.jpeg" alt="" class="about__vision-img">
+                        <h2 class="vision-title">Vision</h2>
+                        <p class="vision__description">To expand our web design and software development business in the country with providing our clients effective IT services to target every customer's goal.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="team" id="team">
-            <div class="section-header">
-                <h1 class="section-heading">Our Team</h1>
-                <div class="underline"></div>
-            </div>
-
-            <div class="cards-wrapper">
-                <div class="card" data-tilt>
-                    <div class="card-img-wrapper">
-                        <img src="img/person-1.jpg" alt="">
-                    </div>
-                    <div class="card-info">
-                        <h2>John Smith</h2>
-                        <h3>CEO</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, minima?</p>
-                        <button>Read more</button>
-                    </div>
+        <!-- pricing -->
+        <section class="pricing section bd-container" id="pricing">
+            <div class="pricing__container bd-grid">
+                <div class="pricing__data">
+                    <span class="section-subtitle">Our Pricing</span>
+                    <p class="pricing__description">In this section shows the three featured packages for Web Development from Basic, Pro to Premium.</p>
                 </div>
 
-                <div class="card" data-tilt>
-                    <div class="card-img-wrapper">
-                        <img src="img/person-2.jpg" alt="">
+                <div class="pricing__prices">
+                    <div class="pricing__basic">
+                        <h2 class="prices__title">Basic</h2>
+                        <span class="prices__description">Personal Use</span>
+                        <p>Starting at</p>
+                        <h1><span>$</span>199</h1>
+
+                        <div class="prices__package">
+                            <ul>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                            </ul>
+
+                            <a href="#" class="price__button">Order Now</a>
+                        </div>
                     </div>
-                    <div class="card-info">
-                        <h2>Ann Brown</h2>
-                        <h3>Designer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, minima?</p>
-                        <button>Read more</button>
+                    
+                    <div class="pricing__basic">
+                        <h2 class="prices__title">Basic</h2>
+                        <span class="prices__description">Personal Use</span>
+                        <p>Starting at</p>
+                        <h1><span>$</span>199</h1>
+
+                        <div class="prices__package">
+                            <ul>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                            </ul>
+
+                            <a href="#" class="price__button">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="pricing__basic">
+                        <h2 class="prices__title">Basic</h2>
+                        <span class="prices__description">Personal Use</span>
+                        <p>Starting at</p>
+                        <h1><span>$</span>199</h1>
+
+                        <div class="prices__package">
+                            <ul>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                                <li>Email</li>
+                            </ul>
+
+                            <a href="#" class="price__button">Order Now</a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
-        <section class="contact" id="contact">
-            <div class="contact-wrapper">
-                <div class="contact-left"></div>
-                <div class="contact-right">
-                    <h1 class="contact-heading">Contact</h1>
-                    <form action="">
-                        <div class="input-group">
-                            <input type="text" class="field">
-                            <label for="" class="input-label">Full name:</label>
+        <!-- services -->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle">Our Services</span>
+            <h2 class="section-title">What we offer</h2>
+            <p class="services__descriptio">We design, build and support websites and apps for clients. We make your business stand out. Interested?</p>
+
+            <div class="services__container bd-grid">
+                <div class="services__content">
+                    <div class="services__div1">
+                        <img src="" alt="Services 1" class="services__img">
+
+                        <h2 class="services__title">Multimedia and Arts <span>Soon!</span></h2>
+                        <p class="services__description">We provide custom company logo, business cards, video presentation and marketing collaterals.</p>
+                        <a href="#" class="services__button">Learn More</a>
+                    </div>
+
+                    <div class="services__div1">
+                        <img src="" alt="Services 2" class="services__img">
+
+                        <h2 class="services__title">Web Development <span>New!</span></h2>
+                        <p class="services__description">Get front-end development that captures the eye of your customers, combined with back-end support from devs specializing in server-side scripting languages such as HTML5, PHP and various databases.</p>
+                        <a href="#" class="services__button">Learn More</a>
+                    </div>
+
+                    <div class="services__div1">
+                        <img src="" alt="Services 3" class="services__img">
+
+                        <h2 class="services__title">Mobile Application <span>Soon!</span></h2>
+                        <p class="services__description">We provide custom mobile app development solution that offers the best of custom and platform.</p>
+                        <a href="#" class="services__button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+        <section class="portfolio section bd-container" id="portfolio">
+            <h2 class="section-title">Our Portfolio</h2>
+            <span class="section-subtitle">See our past work</span>
+
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__content">
+                    <div class="portfolio_tab1">
+                        <img src="#" alt="Portfolio 1">
+                    </div>
+                    <div class="portfolio_tab2">
+                        <img src="#" alt="Portfolio 2">
+                    </div>
+                    <div class="portfolio_tab3">
+                        <img src="#" alt="Portfolio 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <div class="contact__map">
+                        <img src="#" alt="iFrame goes here">
+                    </div>
+
+                    <div class="contact__div">
+                        <div class="contact__left">
+                            <span class="section-subtitle contact__initial">Let's talk</span>
+                            <h2 class="section-title contact__initial">Contact Us</h2>
+                            <form action="" class="input__group"></form>
                         </div>
 
-                        <div class="input-group">
-                            <input type="email" class="field">
-                            <label for="" class="input-label">Email address:</label>
-                        </div>
+                        <div class="contact__right">
+                            <div class="contact__right">
+                                <h2 class="section-title">Address</h2>
+                                <span class="section-subtitle">24 Leyte St. Grp 7 Payatas B Quezon City</span>
 
-                        <div class="input-group">
-                            <textarea name="" id="" cols="30" rows="10" class="field"></textarea>
-                            <label for="" class="message">Message</label>
-                        </div>
+                                <h2 class="section-title">Need Assistance?</h2>
+                                <span class="section-subtitle">Contact one of our team. Live Chat is Open Monday - Friday, 8AM-5PM. You can always leave your message anytime.</span>
 
-                        <input type="submit" class="submit-btn" value="Submit">
-                    </form>
+                                <a href="#"><i class='bx bx-headphone'>+63 917 816 2704</i></a>
+                                <a href="#"><i class='bx bxs-envelope'>genesisonlinesolutions2020@gmail.com</i></a>
+                                <a href="#"><i class='bx bx-globe'>genesisonlinesolutions.com</i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="footer-content">
-                <p class="copyright">Copyright &copy; 2021 Genesis Online Solutions - All right reserved.</p>
-                <div class="social-list">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
-                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <!-- footer -->
+        <footer class="footer section bd-container">
+            <div class="fotter__container bd-grid">
+                <div class="foooter__content">
+                    <a href="#" class="footer__logo">Genesis Online Solutions</a>
+                    <span class="footer__description">Web Design and Development</span>
+
+                    <div>
+                        <a href="#" class="footer__social"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="footer__social"><i class="bx bxl-instagram"></i></a>
+                        <a href="#" class="footer__social"><i class="bx bxl-twitter"></i></a>
+                    </div>
                 </div>
-            </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact Us</a></li>
+                        <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer__link">Term of Service</a></li>
+                    </ul>
+                </div>
+
+                <p class="footer__copy">All rights reserved &#169; 2021 Genesis Online Solutions.</p>
         </footer>
 
-        <a href="#" class="scroll-btn"><i class='bx bx-chevrons-up'></i></a>
-    </div>
+    </main>
 
-    
-   <script src="/dist/scripts/app.js"></script>
-   <script src="https://code.jquery.com/jquery-3.5.1.js"
-   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-   crossorigin="anonymous"></script>
-   <script src="tilt.js"></script>
+    <script src="/dist/scripts/app.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 </html>
